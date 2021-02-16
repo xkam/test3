@@ -1,0 +1,19 @@
+{
+  "name": "preact-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World - ActiveWidgets/Preact",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite --open /",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@activewidgets/preact": "*",
+    "preact": "^10"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0-beta.70"
+  },
+  "private": true
+}
