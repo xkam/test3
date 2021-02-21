@@ -1,18 +1,19 @@
 {
-  "name": "preact-hello-world",
+  "name": "vue-hello-world",
   "version": "1.0.0",
-  "description": "Hello World - ActiveWidgets/Preact",
+  "description": "Hello World - ActiveWidgets/Vue",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "vite --open /",
     "build": "vite build"
   },
   "dependencies": {
-    "@activewidgets/preact": "*",
-    "preact": "^10"
+    "@activewidgets/vue": "^3",
+    "vue": "^3"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue": "^1",
     "vite": "^2.0.0-beta.70"
   },
   "private": true
